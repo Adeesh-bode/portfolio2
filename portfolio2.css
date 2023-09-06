@@ -1,0 +1,335 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body
+{
+    background-color: black;
+}
+header
+{   
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    width:100%;
+    padding: 10px 20px;
+    background-color:transparent;
+}
+.logo
+{
+    font-size: 2em;
+    font-weight: 600px;
+
+}
+.navbar
+{   
+    flex-grow:1;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    padding:10px;
+
+}
+.subscribe
+{
+    font-size: 1.5em;
+    font-weight: 600px;
+    position: relative;
+    top:6px;
+    color: red;
+}
+.navbar a:hover 
+{
+    color: red;
+}
+.navbar .active
+{
+    color: red;
+}
+.home
+{   
+    background-color: black;
+    height:100vh;
+    display: flex;
+    padding: 0 5%;/* no margin k jaghah pe*/
+    align-items: center;
+    
+    
+}
+.home .home-content
+{
+    width:600px;
+}
+.home h1
+{
+    font-size: 50px;
+}
+.home h3
+{
+    color: red;
+}
+.home .surname
+{
+    color: red;;
+}
+.home p
+{
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+.home .btn-box
+{
+    
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    color:black;
+    padding: 5px;
+    width:400px;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+
+}
+#email
+{
+    background-color: transparent;
+    color: black;
+    border: 0px;
+    height: 35px;
+    overflow: hidden;
+    
+}
+#submit
+{
+    border: 0px;
+    border-radius: 12px;
+    background-color: red;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 5px;
+    float: right;
+
+}
+.about
+{   
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(53, 26, 26, 0.431);
+}
+ 
+.about .me
+{
+    width: 100%;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 30px;
+    
+}
+.me img
+{
+    height: 650px;
+    width:80%;
+}
+
+.about .about-content
+{   
+    height: 70%;
+    width: 100%;
+    background-color:transparent;
+    display: inline;
+    direction: col;
+    justify-content: center;
+    margin-right: 40px;
+    color: black;
+}
+
+.about-content h1
+{
+    font-size: 4.25em;
+    padding-bottom: 5px;
+    
+}
+
+.about-content h3
+{
+    color: red;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.about-content p
+{   
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+
+.about-content .btn-box
+{   
+    display: block;
+    text-align: center;
+    width:190px;
+    height: 60px;
+    font-size: 1.3em;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 12px;
+    
+}
+
+.services
+{   
+    background-color: black;
+    height: 100vh;
+}
+
+.services-content
+{
+    margin-left: 350px;
+    margin-right: 350px;
+    position: relative;
+    top:80px;
+
+}
+ 
+.services-content h1
+{
+    
+    font-size: 3.3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.services-content .cards
+{   
+    height: 350px;
+    width: 100%;
+    background-color:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+
+
+}
+.services-content .box
+{       
+    padding-top: 20px;
+    background-color:hsl(206, 11%, 12%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: inline-start;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 2px;
+    
+    overflow: auto;
+
+
+}
+.box i
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;      
+}
+.services-content h3
+{   
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.services-content p
+{
+    text-align: center;
+    padding: 3px;
+    display: block;
+
+}
+.btn-box2
+{
+
+
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+
+    
+
+}
+.btn-box2 a
+{
+    border: 2px solid red;
+    background-color: red;
+    padding:3px;
+    border-radius: 15px;
+}
+.footer1
+{   
+    margin-top: 140px;
+    text-align: center;
+    background-color: hsl(206, 11%, 12%);
+    width: 100%;
+    padding: 15px;
+    
+}
+.footer1 a
+{
+    background-color: red;
+    border-radius: 15px;
+    
+    padding: 8px;
+}
+.footer2
+{
+    text-align: center;
+}
+.footer2 h1
+{
+    padding-top: 3px;
+}
+.footer2-sci 
+{   
+    
+    display: flex;
+    justify-content: space-between;
+    width:10%;
+    position: relative;
+    left: 820px;
+
+}
+.footer2-sci i
+{      
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.3em;
+    color: red;
+}
+
+.section2
+{
+    background-color: darkgreen;
+    height: 100vh;
+}
